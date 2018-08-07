@@ -82,7 +82,7 @@ $(document).ready(() => {
         console.log(trigger.target.dataset);
         let allTypes = trigger.target.dataset['type-0'];
 
-        if (trigger.target.dataset['type-1'] !== 'undefined') {
+        if (trigger.target.dataset['type-1']) {
             allTypes += `, ${trigger.target.dataset['type-1']}` 
         }
 

@@ -3,8 +3,17 @@
     
 }
 
-#cont-pokemon {
-    margin: 2rem;
+div[id^="cont"] {
+    margin: 1.5rem;
     background-color: #f0f0f0;
     text-align: center;
+}
+
+.modal {
+    max-height: 85%;
+    text-align: center;
+}
+
+div#column-pokemon {
+    padding: 2rem;
 }
